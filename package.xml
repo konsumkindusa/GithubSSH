@@ -3,8 +3,12 @@
     <version>37.0</version>
     <types>
         <members>ARApexACclass2</members>
+        <members>ARApexclass117</members>
         <members>ARApexclass12</members>
+        <members>ARApexclass12345</members>
         <members>ARApexclass13</members>
+        <members>ARApexclass15</members>
+        <members>ARApexclass31</members>
         <members>ARSApexclass4</members>
         <name>ApexClass</name>
     </types>
