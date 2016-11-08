@@ -2,6 +2,10 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>37.0</version>
     <types>
+        <members>ARApexclass31</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>SimonTest__c</members>
         <name>CustomObject</name>
     </types>
