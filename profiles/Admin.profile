@@ -274,6 +274,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Illumina__c.PicklistDemo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.CurrentGenerators__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -662,6 +667,9 @@
     <layoutAssignments>
         <layout>ObjectForLily__c-ObjectForLily Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Illumina__c-Illumina Layout</layout>
+    </layoutAssignments>
     <loginIpRanges>
         <endAddress>132.255.255.255</endAddress>
         <startAddress>0.0.0.0</startAddress>
@@ -727,6 +735,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Grand_Sibling_2__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Illumina__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -1344,6 +1361,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ShareInternalArticles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShowCompanyNameAsUserBadge</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

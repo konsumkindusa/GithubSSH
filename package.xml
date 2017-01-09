@@ -103,6 +103,7 @@
         <members>Goal.OrigGoalId__c</members>
         <members>Grand_Child_1__c.Parent__c</members>
         <members>Grand_Parent__c.Child__c</members>
+        <members>Illumina__c.PicklistDemo__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
@@ -242,6 +243,7 @@
         <members>Grand_Parent__c</members>
         <members>Grand_Sibling_1__c</members>
         <members>Grand_Sibling_2__c</members>
+        <members>Illumina__c</members>
         <members>ObjectForLily__c</members>
         <members>Order__c</members>
         <members>Parent__c</members>
@@ -325,6 +327,7 @@
         <members>Grand_Sibling_1__c-Grand Sibling 1 Layout</members>
         <members>Grand_Sibling_2__c-Grand Sibling 2 Layout</members>
         <members>Idea-Idea Layout</members>
+        <members>Illumina__c-Illumina Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
@@ -546,6 +549,7 @@
         <members>Grand_Parent__c</members>
         <members>Grand_Sibling_1__c</members>
         <members>Grand_Sibling_2__c</members>
+        <members>Illumina__c</members>
         <members>ObjectForLily__c</members>
         <members>Parent__c</members>
         <members>SurveyTaker__c</members>
