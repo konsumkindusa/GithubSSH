@@ -19,7 +19,7 @@
         <referenceTo>Case</referenceTo>
         <relationshipLabel>Contacts</relationshipLabel>
         <relationshipName>Contacts</relationshipName>
-        <required>true</required>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
@@ -54,6 +54,16 @@
         </picklist>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Todd_Source_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Todd Source Value</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AllContacts</fullName>

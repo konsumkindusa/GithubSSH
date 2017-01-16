@@ -19,6 +19,7 @@
         <members>SurveyManagerController</members>
         <members>SurveySitesUtil</members>
         <members>SurveyTestingUtil</members>
+        <members>Todd_CopyToAccount_Tester</members>
         <members>ViewSurveyController</members>
         <members>viewShareSurveyComponentController</members>
         <members>viewSurveyResultsComponentController</members>
@@ -41,6 +42,7 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>Todd_CopyToAccount</members>
         <members>primarycheckonScope</members>
         <members>updateQuoteStatus</members>
         <name>ApexTrigger</name>
@@ -87,6 +89,7 @@
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
+        <members>Account.Todd_Target_Value__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Case.AutorabitExtId__c</members>
         <members>Case.EngineeringReqNumber__c</members>
@@ -100,6 +103,7 @@
         <members>Contact.Case__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Contact.Todd_Source_Value__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Grand_Child_1__c.Parent__c</members>
         <members>Grand_Parent__c.Child__c</members>
