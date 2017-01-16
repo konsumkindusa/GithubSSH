@@ -130,6 +130,26 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Todd_Target_Value_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Todd Target Value 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Todd_Target_Value_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Todd Target Value 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Todd_Target_Value__c</fullName>
         <externalId>false</externalId>
         <label>Todd Target Value</label>
