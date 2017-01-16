@@ -90,6 +90,7 @@
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.Todd_Target_Value_2__c</members>
+        <members>Account.Todd_Target_Value_3__c</members>
         <members>Account.Todd_Target_Value__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Case.AutorabitExtId__c</members>
