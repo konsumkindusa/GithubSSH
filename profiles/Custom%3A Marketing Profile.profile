@@ -263,6 +263,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Child__c.TextTest__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.AutorabitExtId__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -300,6 +305,11 @@
         <editable>true</editable>
         <field>Grand_Parent__c.Child__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Illumina__c.IlmnTextField_RSInc2__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>

@@ -98,9 +98,11 @@
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
+        <members>Child__c.ChildMD__c</members>
         <members>Child__c.Parent__c</members>
         <members>Child__c.Sibling_1__c</members>
         <members>Child__c.Sibling_2__c</members>
+        <members>Child__c.TextTest__c</members>
         <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Case__c</members>
         <members>Contact.Languages__c</members>
@@ -109,6 +111,8 @@
         <members>Goal.OrigGoalId__c</members>
         <members>Grand_Child_1__c.Parent__c</members>
         <members>Grand_Parent__c.Child__c</members>
+        <members>Illumina__c.Account_RSInc1__c</members>
+        <members>Illumina__c.IlmnTextField_RSInc2__c</members>
         <members>Illumina__c.PicklistDemo__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
@@ -600,5 +604,18 @@
         <members>Survey_Question__c</members>
         <members>Survey__c</members>
         <name>Workflow</name>
+    </types>
+    <types>
+        <members>Illumina__c.IlmnEA_RSInc1</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Child__c.TextTest</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Child__c.TextTest</members>
+        <members>Illumina__c.IlmnWF_RSInc1</members>
+        <name>WorkflowRule</name>
     </types>
 </Package>
