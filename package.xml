@@ -249,6 +249,7 @@
         <members>ARSF_AccObj1__c</members>
         <members>ARSF_Object2__c</members>
         <members>Child__c</members>
+        <members>Cookie__c</members>
         <members>Grand_Child_1__c</members>
         <members>Grand_Parent__c</members>
         <members>Grand_Sibling_1__c</members>
@@ -330,6 +331,7 @@
         <members>Contact-Contact Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
+        <members>Cookie__c-Cookie Layout</members>
         <members>Event-Event Layout</members>
         <members>Global-Global Layout</members>
         <members>Grand_Child_1__c-Grand Child 1 Layout</members>
@@ -555,6 +557,7 @@
         <members>ARSF_AccObj1__c</members>
         <members>ARSF_Object2__c</members>
         <members>Child__c</members>
+        <members>Cookie__c</members>
         <members>Grand_Child_1__c</members>
         <members>Grand_Parent__c</members>
         <members>Grand_Sibling_1__c</members>
