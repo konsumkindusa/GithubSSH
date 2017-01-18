@@ -95,4 +95,10 @@
     <pluralLabel>Illuminas</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>IlmnValidationRule_RSInc2</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK( IlmnTextField_RSInc2__c)</errorConditionFormula>
+        <errorMessage>Cannot be blank</errorMessage>
+    </validationRules>
 </CustomObject>

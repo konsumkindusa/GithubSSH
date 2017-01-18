@@ -105,4 +105,10 @@
     <pluralLabel>Child1s</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>ChildVal</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(TextTest__c)</errorConditionFormula>
+        <errorMessage>Text test must have a value</errorMessage>
+    </validationRules>
 </CustomObject>

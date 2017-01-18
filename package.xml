@@ -570,6 +570,8 @@
         <name>StaticResource</name>
     </types>
     <types>
+        <members>Child__c.ChildVal</members>
+        <members>Illumina__c.IlmnValidationRule_RSInc2</members>
         <members>Order__c.Discount_Percent</members>
         <name>ValidationRule</name>
     </types>
