@@ -114,6 +114,7 @@
         <members>Illumina__c.Account_RSInc1__c</members>
         <members>Illumina__c.Case_RSInc1__c</members>
         <members>Illumina__c.IlmnTextField_RSInc23__c</members>
+        <members>Illumina__c.IlmnTextField_RSInc24__c</members>
         <members>Illumina__c.IlmnTextField_RSInc2__c</members>
         <members>Illumina__c.PicklistDemo__c</members>
         <members>Lead.CurrentGenerators__c</members>
@@ -582,6 +583,7 @@
         <members>Child__c.ChildVal</members>
         <members>Illumina__c.IlmnValidationRule2_RSInc2</members>
         <members>Illumina__c.IlmnValidationRule_RSInc2</members>
+        <members>Illumina__c.IlmnValidationRule_RSInc24</members>
         <members>Order__c.Discount_Percent</members>
         <name>ValidationRule</name>
     </types>
