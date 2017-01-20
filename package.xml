@@ -559,7 +559,43 @@
         <name>SharingRules</name>
     </types>
     <types>
-        <members>SimonTest__c</members>
+        <members>AutorabitLogo</members>
+        <members>NoDeploymentLogo</members>
+        <members>SurveyForce</members>
+        <members>UserGuide</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Child__c.ChildVal</members>
+        <members>Illumina__c.IlmnValidationRule2_RSInc2</members>
+        <members>Illumina__c.IlmnValidationRule_RSInc2</members>
+        <members>Order__c.Discount_Percent</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Account.Billing</members>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Opportunity.DeliveryStatus</members>
+        <members>Opportunity.Scope_Information_Document</members>
+        <name>WebLink</name>
+    </types>
+    <types>
+        <members>ARSF_AccObj1__c</members>
+        <members>ARSF_Object2__c</members>
+        <members>Child__c</members>
+        <members>Grand_Child_1__c</members>
+        <members>Grand_Parent__c</members>
+        <members>Grand_Sibling_1__c</members>
+        <members>Grand_Sibling_2__c</members>
+        <members>ObjectForLily__c</members>
+        <members>Order__c</members>
+        <members>Parent__c</members>
+        <members>Scope_Poc_Information__c</members>
+        <members>SurveyQuestionResponse__c</members>
+        <members>SurveyTaker__c</members>
+        <members>Survey_Question__c</members>
+        <members>Survey__c</members>
         <name>Workflow</name>
     </types>
 </Package>
