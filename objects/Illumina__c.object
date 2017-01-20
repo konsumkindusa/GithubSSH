@@ -73,9 +73,9 @@
         <externalId>false</externalId>
         <label>Case_RSInc1</label>
         <referenceTo>Case</referenceTo>
-        <relationshipLabel>Illuminas</relationshipLabel>
+        <relationshipLabel>Illumina</relationshipLabel>
         <relationshipName>Illuminas</relationshipName>
-        <relationshipOrder>1</relationshipOrder>
+        <relationshipOrder>0</relationshipOrder>
         <reparentableMasterDetail>false</reparentableMasterDetail>
         <trackTrending>false</trackTrending>
         <type>MasterDetail</type>

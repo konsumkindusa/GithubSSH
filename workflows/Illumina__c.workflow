@@ -3,8 +3,17 @@
     <alerts>
         <fullName>IlmnEA_RSInc1</fullName>
         <ccEmails>rshrestha@illumina.com</ccEmails>
+        <ccEmails>raish.shrestha@gmail.com</ccEmails>
         <description>IlmnEA_RSInc1</description>
         <protected>false</protected>
+        <recipients>
+            <recipient>ar-sf-dev4-org4@autorabit.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>playground-admindev4@autorabit.com</recipient>
+            <type>user</type>
+        </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/IlmnET_RSInc1</template>
     </alerts>
@@ -16,7 +25,7 @@
         </actions>
         <active>true</active>
         <criteriaItems>
-            <field>Case.CaseNumber</field>
+            <field>Case.OwnerId</field>
             <operation>notEqual</operation>
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
