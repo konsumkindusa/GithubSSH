@@ -56,6 +56,43 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Account_RSInc1__c</fullName>
+        <externalId>false</externalId>
+        <label>Account_RSInc1</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Illuminas</relationshipLabel>
+        <relationshipName>Illuminas</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Case_RSInc1__c</fullName>
+        <externalId>false</externalId>
+        <label>Case_RSInc1</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Illumina</relationshipLabel>
+        <relationshipName>Illuminas</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>IlmnTextField_RSInc2__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>IlmnTextField_RSInc2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>PicklistDemo__c</fullName>
         <externalId>false</externalId>
         <label>PicklistDemo</label>
