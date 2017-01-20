@@ -579,6 +579,7 @@
     </types>
     <types>
         <members>Child__c.ChildVal</members>
+        <members>Illumina__c.IlmnValidationRule2_RSInc2</members>
         <members>Illumina__c.IlmnValidationRule_RSInc2</members>
         <members>Order__c.Discount_Percent</members>
         <name>ValidationRule</name>
