@@ -16,7 +16,7 @@
         </actions>
         <active>true</active>
         <criteriaItems>
-            <field>Account.Name</field>
+            <field>Case.CaseNumber</field>
             <operation>notEqual</operation>
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>

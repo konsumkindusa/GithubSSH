@@ -112,6 +112,7 @@
         <members>Grand_Child_1__c.Parent__c</members>
         <members>Grand_Parent__c.Child__c</members>
         <members>Illumina__c.Account_RSInc1__c</members>
+        <members>Illumina__c.Case_RSInc1__c</members>
         <members>Illumina__c.IlmnTextField_RSInc2__c</members>
         <members>Illumina__c.PicklistDemo__c</members>
         <members>Lead.CurrentGenerators__c</members>

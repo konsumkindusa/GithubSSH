@@ -69,14 +69,28 @@
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
+        <fullName>Case_RSInc1__c</fullName>
+        <externalId>false</externalId>
+        <label>Case_RSInc1</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Illuminas</relationshipLabel>
+        <relationshipName>Illuminas</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
         <fullName>IlmnTextField_RSInc2__c</fullName>
+        <caseSensitive>false</caseSensitive>
         <externalId>false</externalId>
         <label>IlmnTextField_RSInc2</label>
         <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
-        <unique>false</unique>
+        <unique>true</unique>
     </fields>
     <fields>
         <fullName>PicklistDemo__c</fullName>
@@ -121,7 +135,7 @@
     <validationRules>
         <fullName>IlmnValidationRule_RSInc2</fullName>
         <active>true</active>
-        <errorConditionFormula>ISBLANK( IlmnTextField_RSInc2__c)</errorConditionFormula>
+        <errorConditionFormula>ISCHANGED( IlmnTextField_RSInc2__c)</errorConditionFormula>
         <errorMessage>Cannot be blank</errorMessage>
     </validationRules>
 </CustomObject>
