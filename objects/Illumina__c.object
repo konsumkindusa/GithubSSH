@@ -82,6 +82,27 @@
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
+        <fullName>IlmnTextField_RSInc23__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>IlmnTextField_RSInc23</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>IlmnTextField_RSInc24__c</fullName>
+        <externalId>false</externalId>
+        <label>IlmnTextField_RSInc24</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>IlmnTextField_RSInc2__c</fullName>
         <caseSensitive>false</caseSensitive>
         <externalId>false</externalId>
@@ -142,6 +163,12 @@
         <fullName>IlmnValidationRule_RSInc2</fullName>
         <active>true</active>
         <errorConditionFormula>ISCHANGED( IlmnTextField_RSInc2__c)</errorConditionFormula>
+        <errorMessage>Cannot be blank</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IlmnValidationRule_RSInc24</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNULL( IlmnTextField_RSInc24__c)</errorConditionFormula>
         <errorMessage>Cannot be blank</errorMessage>
     </validationRules>
 </CustomObject>
