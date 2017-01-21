@@ -171,4 +171,10 @@
         <errorConditionFormula>ISNULL( IlmnTextField_RSInc24__c)</errorConditionFormula>
         <errorMessage>Cannot be blank</errorMessage>
     </validationRules>
+    <validationRules>
+        <fullName>IlmnValidationRule_RSInc24</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNULL( IlmnTextField_RSInc24__c)</errorConditionFormula>
+        <errorMessage>Cannot be blank</errorMessage>
+    </validationRules>
 </CustomObject>
